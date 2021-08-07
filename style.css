@@ -1,0 +1,52 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background: #4c9207;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+h1{
+    color: goldenrod;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+#message-el{
+    font-style: italic;
+    margin: 1.5rem 0 1rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+p{
+    font-size: 20px;
+    margin: .5rem;
+    font-weight: bold;
+}
+#start-game,#new-card{
+    padding: .3rem 1.4rem;
+    color:#324e17 ;
+    margin-top: .7rem;
+    border: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:goldenrod ;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#new-card{
+    padding: .3rem 1.95rem; 
+    margin-top: .4rem;
+}
+#new-card:active{
+    transform: scale(.9);
+}
+#start-game:active{
+    transform: scale(.9);
+}
+
